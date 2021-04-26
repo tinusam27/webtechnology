@@ -1,0 +1,213 @@
+<html>
+<head>
+
+<img src="logo.png"  width="260" height="70">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #F7DC6F;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: nil;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 0px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 0px 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background: #ddd;
+  font-size: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav"> 
+  <a class="active" href="index.html">HOME</a>
+  <a href="login.html">LOGIN</a>
+  <a href="about.html">ABOUT US</a>
+<a href="gallery.html">GALLERY</a>
+<a href="services.html">SERVICES</a>
+<a href="contact.html">CONTACT</a>
+  <div class="search-container"> 
+   <form action="vm.html"> 
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<meta name="viewport" content="width=100, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: nil;
+}
+body {
+  background-image: url("loginb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+* { box-sizing: border-box;
+  
+  
+}
+
+/* Add padding to containers */
+.container {
+  <!padding: 100px;
+  background-color: Nil;>
+padding-top: 50px;
+  padding-right: 500px;
+  padding-bottom: 50px;
+  padding-left: 500px;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number]{
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: orange;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+
+
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+<label for="name"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="name" id="name" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+    <label for="number"><b>Phone Number</b></label>
+    <input type="number" placeholder="Enter phone number" name="number" id="number" required>
+
+    <hr>
+    
+    <button type="Register" class="registerbtn"><a href="success.html">Register</a></button>
+	<p>Already a member? <a href="signin.html">Sign in</a></p>
+  </div>
+  
+  
+</form>
+<hr color="Grey" width=85%>
+<h4><center><p>Copyright Protected @tinusam27<p></center></h4>
+<center><h4>Our Instagram Id : ____intoink____ </h4></center>
+
+</body>
+</html>
